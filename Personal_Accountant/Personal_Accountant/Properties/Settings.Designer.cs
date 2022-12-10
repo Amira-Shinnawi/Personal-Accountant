@@ -25,7 +25,7 @@ namespace Personal_Accountant.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("DESKTOP-EBT959P")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DESKTOP-IO7FJKT")]
         public string ServerName {
             get {
                 return ((string)(this["ServerName"]));
@@ -44,17 +44,6 @@ namespace Personal_Accountant.Properties {
             }
             set {
                 this["DBName"] = value;
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-EBT959P;Initial Catalog=PersonalAccountant;Integrated Securit" +
-            "y=True")]
-        public string PersonalAccountantConnectionString {
-            get {
-                return ((string)(this["PersonalAccountantConnectionString"]));
             }
         }
     }

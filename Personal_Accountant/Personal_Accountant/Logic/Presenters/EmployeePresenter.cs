@@ -24,7 +24,7 @@ namespace Personal_Accountant.Logic.Presenters
             EmpModel.EmpName = employee.EmpName;
             EmpModel.Gender = employee.Gender;
             EmpModel.Salary = employee.Salary;
-            EmpModel.PhoneNum = employee.PhoneNum;
+           
 
         }
         public bool EmpInsert()

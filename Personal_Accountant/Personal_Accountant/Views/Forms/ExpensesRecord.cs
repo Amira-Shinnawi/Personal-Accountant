@@ -28,7 +28,7 @@ namespace Personal_Accountant.Views.Forms
         object IExpenses.dataGridView { get =>DGVExp.DataSource; set => DGVExp.DataSource=value; }
         public DateTime AddedDate { get => addDate.Value; }
 
-        private void addbtn_Click(object sender, EventArgs e)
+        private void addbtn_Click_1(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txt_box1.Text) && !string.IsNullOrEmpty(txt_box2.Text) && !string.IsNullOrEmpty(txt_box3.Text))
             {
@@ -38,28 +38,39 @@ namespace Personal_Accountant.Views.Forms
                     MessageBox.Show("Sucessfully Added");
                     Cal();
                 }
-            }
+            }else
                 MessageBox.Show("Faild Added! Please enter all Data");
             
         }
 
-        private void updatebtn_Click(object sender, EventArgs e)
+        private void updatebtn_Click_1(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txt_box1.Text) && !string.IsNullOrEmpty(txt_box2.Text) && !string.IsNullOrEmpty(txt_box3.Text))
+            //if (!string.IsNullOrEmpty(txt_box1.Text) && !string.IsNullOrEmpty(txt_box2.Text) && !string.IsNullOrEmpty(txt_box3.Text))
+            //{
+            //    bool check = expensesPresenter.ExpUpdate();
+            //    if (check)
+            //    {
+            //        MessageBox.Show("Sucessfully Update");
+            //        Cal();
+            //    }
+            //}
+            
+            if (DGVExp.CurrentRow != null)
             {
-                bool check = expensesPresenter.ExpUpdate();
-                if (check)
-                {
-                    MessageBox.Show("Sucessfully Update");
-                    Cal();
-                }
+                DGVExp.CurrentRow.Cells[0].Value = txt_box1.Text;
+                DGVExp.CurrentRow.Cells[1].Value = txt_box2.Text;
+                DGVExp.CurrentRow.Cells[2].Value = txt_box3.Text;
+                DGVExp.CurrentRow.Cells[4].Value = addDate.Value;
+
+
             }
             else
+
                 MessageBox.Show("Faild Update! Select the row first");
-            
+
         }
 
-        private void delbtn_Click(object sender, EventArgs e)
+        private void delbtn_Click_1(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txt_box1.Text) && !string.IsNullOrEmpty(txt_box2.Text) && !string.IsNullOrEmpty(txt_box3.Text))
             {
@@ -77,7 +88,7 @@ namespace Personal_Accountant.Views.Forms
 
         }
 
-        private void clearbtn_Click(object sender, EventArgs e)
+        private void clearbtn_Click_1(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txt_box1.Text) && !string.IsNullOrEmpty(txt_box2.Text) && !string.IsNullOrEmpty(txt_box3.Text))
             {
@@ -112,12 +123,13 @@ namespace Personal_Accountant.Views.Forms
             txt_box5.Text = sum.ToString();
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
+        private void btnSearch_Click_1(object sender, EventArgs e)
         {
             BindingSource bs = new BindingSource();
             bs.DataSource = DGVExp.DataSource;
-            bs.Filter = DGVExp.Columns[0].HeaderText.ToString() + " LIKE '%" + txt_Search.Text + "%'";
+            bs.Filter = DGVExp.Columns[0].HeaderText.ToString() + " LIKE '%" + txtSearch.Text + "%'";
             DGVExp.DataSource = bs;
+            
         }
 
         private void displayDGV(object sender, DataGridViewCellEventArgs e)
@@ -135,5 +147,17 @@ namespace Personal_Accountant.Views.Forms
 
             }
         }
+
+        private void txt_box1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kryptonPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+      
     }
 }

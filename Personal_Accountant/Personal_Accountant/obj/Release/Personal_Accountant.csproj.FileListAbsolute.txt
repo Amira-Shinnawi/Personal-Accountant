@@ -1,0 +1,8 @@
+C:\Users\laptop world\Desktop\final project\Personal_Accountant\Personal_Accountant\obj\Release\Personal_Accountant.csproj.AssemblyReference.cache
+C:\Users\laptop world\Desktop\final project\Personal_Accountant\Personal_Accountant\obj\Release\Personal_Accountant.Properties.Resources.resources
+C:\Users\laptop world\Desktop\final project\Personal_Accountant\Personal_Accountant\obj\Release\Personal_Accountant.Views.Forms.Employee.resources
+C:\Users\laptop world\Desktop\final project\Personal_Accountant\Personal_Accountant\obj\Release\Personal_Accountant.Views.Forms.ExpensesRecord.resources
+C:\Users\laptop world\Desktop\final project\Personal_Accountant\Personal_Accountant\obj\Release\Personal_Accountant.Views.Forms.Revenue.resources
+C:\Users\laptop world\Desktop\final project\Personal_Accountant\Personal_Accountant\obj\Release\Personal_Accountant.csproj.GenerateResource.cache
+C:\Users\laptop world\Desktop\final project\Personal_Accountant\Personal_Accountant\obj\Release\Personal_Accountant.exe.licenses
+C:\Users\laptop world\Desktop\final project\Personal_Accountant\Personal_Accountant\obj\Release\Personal_Accountant.csproj.CoreCompileInputs.cache
