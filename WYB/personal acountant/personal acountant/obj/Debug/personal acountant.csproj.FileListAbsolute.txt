@@ -1,0 +1,25 @@
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal acountant.csproj.AssemblyReference.cache
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal_acountant.Properties.Resources.resources
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal acountant.csproj.GenerateResource.cache
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal acountant.csproj.CoreCompileInputs.cache
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\personal acountant.exe.config
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\personal acountant.exe
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\personal acountant.pdb
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\Krypton.Toolkit.dll
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\bin\Debug\Krypton.Toolkit.xml
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal_acountant.login.resources
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal_acountant.Main.resources
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal_acountant.singup.resources
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal acountant.csproj.CopyComplete
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal acountant.exe
+C:\Users\misr computer\Desktop\WYB\personal acountant\personal acountant\obj\Debug\personal acountant.pdb
