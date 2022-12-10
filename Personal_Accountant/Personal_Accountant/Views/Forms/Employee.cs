@@ -47,14 +47,13 @@ namespace Personal_Accountant.Views.Forms
 
         private void updatebtn_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txt_box1.Text) && !string.IsNullOrEmpty(cmb_gender.Text) && !string.IsNullOrEmpty(txt_box3.Text) && !string.IsNullOrEmpty(txt_box4.Text))
+            if (DGVEmp.CurrentRow != null)
             {
-                bool check = employeePresenter.EmpUpdate();
-                if (check)
-                {
-                    MessageBox.Show("Sucessfully Update");
-                    Cal();
-                }
+                DGVEmp.CurrentRow.Cells[1].Value = txt_box1.Text;
+                DGVEmp.CurrentRow.Cells[3].Value = txt_box3.Text;
+                DGVEmp.CurrentRow.Cells[4].Value = txt_box4.Text;
+
+
             }
             else
                 MessageBox.Show("Faild Updated! Select the row first");
@@ -136,5 +135,7 @@ namespace Personal_Accountant.Views.Forms
             DGVEmp.DataSource = bs;
             
         }
+
+     
     }
 }

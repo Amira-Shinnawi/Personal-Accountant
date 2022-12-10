@@ -48,14 +48,13 @@ namespace Personal_Accountant.Views.Forms
 
         private void updatebtn_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txt_box1.Text) && !string.IsNullOrEmpty(txt_box2.Text) && !string.IsNullOrEmpty(txt_box3.Text))
+            if (DGVRev.CurrentRow != null)
             {
-                bool check = revenuePresenter.RevUpdate();
-                if (check)
-                {
-                    MessageBox.Show("Sucessfully Update");
-                    Cal();
-                }
+                DGVRev.CurrentRow.Cells[0].Value = txt_box1.Text;
+                DGVRev.CurrentRow.Cells[1].Value = txt_box2.Text;
+                DGVRev.CurrentRow.Cells[2].Value = txt_box3.Text;
+                DGVRev.CurrentRow.Cells[4].Value = addDate.Value;
+
             }
             else
 
@@ -133,6 +132,88 @@ namespace Personal_Accountant.Views.Forms
 
 
             }
+        }
+
+      
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DGVRev_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void kryptonPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txt_box3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_box2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_Search_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kryptonLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_box5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_box1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_Search_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

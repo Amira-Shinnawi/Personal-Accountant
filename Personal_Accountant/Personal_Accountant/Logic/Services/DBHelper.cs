@@ -48,7 +48,6 @@ namespace Personal_Accountant.Logic.Services
                     con.Close();
                 }
             }
-            return false;
 
         }
         //Select
